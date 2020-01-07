@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="edit_message">wassup boiiii</string>
+    <string name="button_send">Send</string>
+
+</resources>
