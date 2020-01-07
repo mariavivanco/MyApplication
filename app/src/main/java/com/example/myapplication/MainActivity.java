@@ -64,15 +64,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void hold (View view){
-        if (isUsersTurn){
-            userTotalScore += score;
-            score = 0;
-        }
-        else {
-            compTotalScore += score;
-            score = 0;
-        }
-
+        finalizeScore();
         setViews();
     }
     public void reset (View view) {

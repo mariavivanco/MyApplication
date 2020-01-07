@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="59dp"
         android:layout_marginBottom="342dp"
-        android:onClick="roll"
+        android:onClick="hold"
         android:text="hold"
         app:layout_constraintBaseline_toBaselineOf="@+id/roll"
         app:layout_constraintBottom_toBottomOf="parent"
